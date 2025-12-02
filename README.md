@@ -1,16 +1,68 @@
-# React + Vite
+📝 Notes App (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Notes App built using React and Tailwind CSS.
+The app lets users add notes, show note details, mark tasks as completed, and delete them.
+This project is beginner-friendly and focuses on understanding basic React concepts.
 
-Currently, two official plugins are available:
+🚀 Features
+Add new notes using a form
+Two-way data binding with useState
+Display notes using map()
+Delete notes using splice()
+Mark tasks as completed
+Responsive UI with Tailwind CSS
+Clean and simple design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Technologies Used
+React (Functional Components + Hooks)
 
-## React Compiler
+Tailwind CSS
+JavaScript (ES6+)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📦 What You Will Learn
+This project is great for practicing core React concepts:
 
-## Expanding the ESLint configuration
+✔ useState
+Used for:
+Storing notes
+Handling input values
+Tracking completed tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Form Handling
+Managing input fields
+Validating empty fields
+
+Updating state on every keystroke
+
+✔ Two-Way Data Binding
+Input → State
+State → UI
+
+Allows the UI to update instantly as the user types.
+
+✔ Rendering Lists with map()
+Displaying each note inside a card
+
+✔ Deleting Notes using splice()
+Remove a task by its index
+
+Update the state after deletion
+✔ Marking Tasks as Completed
+
+Change UI style for completed tasks
+
+
+▶️ How to Run
+npm install
+npm run dev
+
+🎨 UI Description
+Clean white cards for notes
+Soft colors for headings and text
+Simple layout that works on all screen sizes
+
+💡 Future Improvements (Optional)
+Local storage support
+Edit notes
+Search notes
+Dark mode
